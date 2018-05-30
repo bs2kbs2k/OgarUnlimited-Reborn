@@ -1,2 +1,1 @@
-# ogarul
-Old ogarul reborn
+Not so really closed anymore
