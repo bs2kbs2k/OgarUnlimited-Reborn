@@ -2,7 +2,7 @@ Official OgarUnlimited Reborn
 
 This is the lastest official version of OgarUnlimited publically released to the public. 
 
-#####Helpful links
+##### Helpful links
 - [Documentation](https://github.com/LegitSoulja/ogarul/blob/master/src/README.md)
 - [Client](https://ogarul.legitsoulja.info)
 
