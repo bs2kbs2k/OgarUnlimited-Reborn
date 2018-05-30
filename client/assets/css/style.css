@@ -1,0 +1,306 @@
+@import url('toastr.min.css');
+* {
+    margin: 0;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;  
+    -khtml-user-select: none;   
+    -moz-user-select: none;      
+    -ms-user-select: none;      
+    user-select: none;         
+}
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#body > #nav {
+    z-index: 2;
+    position: fixed;
+    background-color: #141414;
+    opacity: 0.89999997615814208984375;
+    width: 100%;
+    height: 50px;
+}
+#body > #nav > .logo {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    position: relative;
+    top: 14px;
+    left: 14px;
+}
+#body > #nav > .navigation {
+    position: absolute;
+  width: 100%;
+    top: 1px;
+    left: 50px;
+    color: orange;
+    list-style: none;
+}
+#body > #nav > .navigation > li {
+    font-family: 'Exo 2', sans-serif;
+    float: left;
+    cursor: pointer;
+    margin: 14px;
+}
+#body > #nav > .navigation > li:hover {
+    color: white;
+}
+#body > #nav > .navigation > li.left{
+  /* needs to be left */
+}
+#body > #hellodialog {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#body > #hellodialog > #center {
+    position: fixed;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #141414;
+    background-position: center;
+    background-image: url(http://agariohub.tk/assets/img/texture.png);
+    width: 400px;
+    height: 500px;
+    border-radius: 5px 5px 5px 5px;
+    border: black solid 1px;
+}
+#body > #hellodialog > #center > .btn {
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid orange;
+}
+#body > #hellodialog > #center > .btn > li {
+    float: left;
+    background-color: white;
+    margin-top: 20px;
+    margin: 0;
+    padding: 15px 15px 15px 15px;
+    border: white solid 1px;
+    border-radius: 0 0 0 0;
+}
+#body > #hellodialog > #center > .btn > li:hover {
+    opacity: 0.60000002384185791015625;
+}
+#body > #hellodialog > #center > #prop {
+    display: block;
+    width: 100%;
+    height: 88%;
+    border-bottom: 1px solid white;
+}
+.skinnum {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 25px;
+}
+span.selector {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+span.selector,
+i {
+    margin: 15px;
+    font-size: 60px;
+    color: white;
+}
+span.selector,
+i:hover {
+    color: orange;
+    cursor: pointer;
+}
+span.bl {
+    position: absolute;
+    bottom: 0;
+    margin-right: 50px;
+    width: 100%;
+    color: white;
+}
+span.bl > .br {
+    position: absolute;
+    right: 0;
+    margin-left: 20px;
+    color: white;
+}
+.head {
+    display: block;
+    text-align: center;
+    color: white;
+}
+.servers {
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    height: 94%;
+}
+.servers > span {
+    position: relative;
+    top: 20px;
+}
+.servers > ul {
+    list-style: none;
+}
+.servers > ul > li {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    color: white;
+}
+.servers > ul > li:hover {
+    font-weight: bold;
+}
+.sett > thead > tr > th {
+    color: gray;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+}
+.sett {
+    width: 100%;
+    table-layout: fixed;
+}
+.skinname {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    height: 50px;
+    background-color: #141414;
+}
+.ss {
+    background-repeat: no-repeat;
+    background-size: 248px 248px;
+    background-position: center;
+    box-shadow: 0 0 5px #fff;
+    border: orange solid 1px;
+    position: relative;
+    top: 10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#customins {
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 364px;
+    height: 210px;
+    display: inline-block;
+    margin: 0 auto;
+}
+#titleh {
+    font-family: 'Baloo Thambi', cursive;
+    text-align: center;
+    color: white;
+}
+#prop {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.play {
+    display: block;
+    background-position: center top;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 370px 400px;
+    background-image: url(../img/Untitled-1.png);
+}
+#instructions{
+  text-align: center;
+  color: white;
+}
+#chat_textbox {
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    bottom: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 0;
+    outline: 0;
+    color: #FFF;
+    height: 30px;
+    text-indent: 12px;
+    left: 10px;
+    width: 300px;
+}
+#chat_textbox:focus {
+    background: rgba(0, 0, 0, 0.5);
+}
+.ss:hover {
+    border: blue solid 1px;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: #141414;
+    border-left: 1px solid orange;
+}
+::-o-scrollbar {
+    width: 5px;
+}
+::-o-scrollbar-track {
+    border-radius: 5px;
+}
+::-o-scrollbar-thumb {
+    border-radius: 5px;
+    background: #141414;
+    border-left: 1px solid orange;
+}
+::-moz-scrollbar {
+    width: 5px;
+}
+::-moz-scrollbar-track {
+    border-radius: 5px;
+}
+::-moz-scrollbar-thumb {
+    border-radius: 5px;
+    background: #141414;
+    border-left: 1px solid orange;
+}
+.settname {
+    position: relative;
+    left: 10px;
+    color: white;
+}
+.col-3 {
+    float: left;
+    width: 27.33%;
+    margin: 40px 3%;
+    position: relative;
+}
+#playBtn {
+    background-color: #141414;
+}
