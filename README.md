@@ -5,7 +5,7 @@ This is the lastest official version of OgarUnlimited publically released to the
 ##### Helpful links
 - [Documentation](https://github.com/LegitSoulja/ogarul/blob/master/src/README.md)
 - [Plugins](https://github.com/AJS-development/OgarUL-Plugin-Library)
-- [Client](https://ogarul.legitsoulja.info)
+- [Live Client](https://ogarul.legitsoulja.info)
 
 > Provided by AJS. Please keep our copyright attatched to our sources to keep reminder that OgarUnlimited was developed by AJS. You cannot claim this entire work as yours!. If anyone is found with a fully modified version of OgarUnlimited with no credit towards AJS, I will shut this repo down!.
 
