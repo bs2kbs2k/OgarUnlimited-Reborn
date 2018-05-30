@@ -78,7 +78,7 @@
     "name": "Multiverse.js"
   },
   {
-    "hash": "1ace369f4d29dbe5250b327e604233ea",
+    "hash": "a7243b492504b6bd4c0bf973db33be98",
     "src": "src/core/ConfigService.js",
     "dst": "./core/ConfigService.js",
     "name": "ConfigService.js"
@@ -156,7 +156,7 @@
     "name": "StatServer.js"
   },
   {
-    "hash": "d59479af5bfa80a0ea9e46b920c655e5",
+    "hash": "eff2cc3b42970892951d3402d43fab12",
     "src": "src/core/Updater.js",
     "dst": "./core/Updater.js",
     "name": "Updater.js"
@@ -246,7 +246,7 @@
     "name": "index.js"
   },
   {
-    "hash": "234c518064dd2d8e2171050a198f29a5",
+    "hash": "d234357add9e1f581e8249f5eb865b24",
     "src": "src/files.json",
     "dst": "./files.json",
     "name": "files.json"
@@ -1026,7 +1026,7 @@
     "name": "Readme"
   },
   {
-    "hash": "4c5c43ce796c4c33cb4b1ec5200d554d",
+    "hash": "223729a2b572ae9481ec3f857f8b6728",
     "src": "package.json",
     "dst": "../package.json",
     "name": "package.json"
