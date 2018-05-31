@@ -11,17 +11,17 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-		<meta name="description" content="Home of OgarUnlimited, and public servers!">
+		<meta name="description" content="OgarUnlimited">
 		<meta name='copyright' content='AJS-development'>
 		<meta name="keywords" content="OgarUnlimited, Agario, AJS, play.ogarul.tk, ogarul.tk, AJS/Ogar-unlimited, play.ogarul.io, ogarul.io, forum.ogarul.io, OgarUl">
 		<meta name='coverage' content='Worldwide'>
 		<meta name='revisit-after' content='1 days'>
 		<meta name='subtitle' content='AJS Project creation'>
-		<link rel="icon" href="fav.ico?s" />
+		<link rel="stylesheet" href="css/style.css?cache=1.1" />
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0-rc.2/themes/smoothness/jquery-ui.css">
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css?cache=1.1" />
 		<script type="text/javascript" src="js/output.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
@@ -114,6 +114,7 @@
 			<input id="chat_textbox" maxlength="200" placeholder="Press Enter to chat!" type="text">
 		</form>
 		<div id="skins" style="display: none;" title="Skins List (Click Your Skin)"></div>
+
 		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
 		<script src="Vector2.js" type="text/javascript"></script>
 		<script src="js/main_out.js?c=<?=time()/2;?>" type="text/javascript"></script>
