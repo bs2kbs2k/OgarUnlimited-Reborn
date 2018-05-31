@@ -1,3 +1,8 @@
+<!-- /* 
+*| AJS :: OgarUnlimited, (Public Release) [.86]
+*| Source :: https://github.com/LegitSoulja/ogarul
+*/ -->
+
 <!DOCTYPE HTML>
 <html>
 
