@@ -5,3 +5,5 @@
 ###### Or access the connection prompt
 
 `getConnection()`
+
+> I've provided an html/php version for your ease of access. 
