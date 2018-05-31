@@ -114,7 +114,7 @@
 		</form>
 		<div id="skins" style="display: none;" title="Skins List (Click Your Skin)"></div>
 
-		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
 		<script src="Vector2.js" type="text/javascript"></script>
 		<script src="js/main_out.js?c=<?=time()/2;?>" type="text/javascript"></script>
 		<script>
