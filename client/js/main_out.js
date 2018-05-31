@@ -1,3 +1,10 @@
+/*
+>
+AJS :: OgarUnlimited, (Public Release) [.86]
+Source :: https://github.com/LegitSoulja/ogarul
+>
+*/
+
 (function (win, jq) {
   
         var SKIN_URL = "skinlist/";
