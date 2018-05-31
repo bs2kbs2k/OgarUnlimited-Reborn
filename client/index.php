@@ -65,9 +65,7 @@
 								<input id="cgrid" onchange="setHideGrid($(this).is(':checked'));" type="checkbox">Hide Grid</label>
 							<br/>
 							<label>
-								<button class="btn" onclick="getConnection()">
-									<label>Reconnect</label>
-								</button>
+								<button class="btn" onclick="getConnection()"><label>Reconnect</label></button>
 							</label>
 							<label>
 								<button class="btn" onclick="spectate(); return false;">Spectate</button>
@@ -85,26 +83,18 @@
 						<select class="serverlist form-control" style="display: none; text-align-last:center; border: 1px solid orange;" size="8"></select>
 					</div>
 				</form>
-				<br/>
 				<div>
-					<center><h6><i>OgarUnlimited repo no longer exist!. </i></h6></center>
-					<br/>
 					<p id="customins">Control your cell using the mouse, w for eject, space for split. Add &lt;skinname&gt; in your username for skins.</p>
-					<br/>
-					<span class="notice" style=" ">New OpenAgar Site!.<a href="http://home.opnagar.us">Register</a> ASAP</span>
-					<br/>
-					<!-- <span class="notice" style=" ">Come test out OpenAgar's hidenseek gamemode! > <a href="http://opnagar.us/server/hidenseek">Connect</a></span> -->
 				</div>
+				<br/>
 				<div id="customht"></div>
 				<div style="margin-bottom: 5px; margin-left: auto; margin-right: auto;">
 					<span class="tts"></span>
 					<center>
 				</div>
-				<!-- DO NOT REMOVE THIS!. IF YOUR SITE IS FOUND WITH STOLEN CONTENT, WITHOUT THIS COPYRIGHT GET READY FOR ME TO SUE YOUR ASS, SKINS WONT WORK ANYWAYS ON YOUR NOOB SITE -->
 				<center>
-					<a class="skinlist" title="Official OgarUnlimited Skins"><i class="fa fa-unlock" aria-hidden="true" ></i> <font color="green">Skins</font></a> | <a class="" href="http://home.opnagar.us"> Community</a> | <a href="https://github.com/AJS-development/Ogar-unlimited" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> AJS</a>
+					<a class="skinlist" title="Official OgarUnlimited Skins"><i class="fa fa-unlock" aria-hidden="true" ></i> <font color="green">Skins</font></a>
 				</center>
-				<!-- DO NOT REMOVE THIS!. IF YOUR SITE IS FOUND WITH STOLEN CONTENT, WITHOUT THIS COPYRIGHT GET READY FOR ME TO SUE YOUR ASS, SKINS WONT WORK ANYWAYS ON YOUR NOOB SITE -->
 				</center>
 			</div>
 		</div>
@@ -119,49 +109,18 @@
 			<input id="chat_textbox" maxlength="200" placeholder="Press Enter to chat!" type="text">
 		</form>
 		<div id="skins" style="display: none;" title="Skins List (Click Your Skin)"></div>
-		<!-- DO NOT REMOVE THIS!. IF YOUR SITE IS FOUND WITH STOLEN CONTENT, WITHOUT THIS COPYRIGHT GET READY FOR ME TO SUE YOUR ASS, SKINS WONT WORK ANYWAYS ON YOUR NOOB SITE -->
-		<div id="tosb" style="display: none; color: orange;" title="Terms Of Servers(Services)">
-			We worked really hard to bring you OgarUnlimited. Here's a few things that we don't want you to do!.
-			<p></p>
-			<ul>
-				<li>We do no tolerate profanity. You could be banned from this site!.</li>
-				<li>Do not steal skins, or any site contents. Make it yourself noob!.</li>
-				<li>Do not use any illegal tools on site (which we can tell if you are).</li>
-				<li>Don't bypass any of our security features!.</li>
-				<li>Respect other servers, and this site!.</li>
-			</ul>
-			<br/>
-			<hr/>
-			<span style="font-size: 10px;"><a href="https://github.com/AJS-development/Ogar-unlimited" target="_blank">AJS/Ogar-unlimited!. Copyrighted content!.</a></span>
-		</div>
-		<!-- DO NOT BYPASS, NOR TOUCH -->
 		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
 		<script src="Vector2.js" type="text/javascript"></script>
 		<script src="js/main_out.js?c=<?=time()/2;?>" type="text/javascript"></script>
 		<script>
-			var a = ["Ogar Unlimited", "OpenAgar"];
-			setInterval(function() {
-				var b = ~~(2 * Math.random() + 0);
-				$("#titleh").empty().append(a[b]);
-				1 == b && setTimeout(function() {
-					$("#titleh").empty().append(a[0])
-				}, ~~(1001 * Math.random() + 500))
-			}, 8E3);
-		</script>
-		<script>
 			$(document).on("contextmenu", function(t) {
 				return t.preventDefault(), t.stopPropagation(), !1
 			}), $(window).load(function() {
-
 				$(".skinlist").click(function(t) {
-					
 					t.preventDefault(), t.stopPropagation(), 
 					$("#skins").dialog({ show: "blind", hide: "clip" })
-					
 				}), $("#skins").on("click", ".skinclick", function() {
-					
 					$("#nick").val("<" + $(this).attr("title") + ">"), $("#skins").dialog("close")
-					
 				}), $.ajax({
 					url: "skinlist.php",
 					type: "GET",
