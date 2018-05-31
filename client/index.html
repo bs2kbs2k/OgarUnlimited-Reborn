@@ -17,11 +17,10 @@
 		<meta name='coverage' content='Worldwide'>
 		<meta name='revisit-after' content='1 days'>
 		<meta name='subtitle' content='AJS Project creation'>
-		<link rel="stylesheet" href="css/style.css?cache=1.1" />
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0-rc.2/themes/smoothness/jquery-ui.css">
+		<link rel="stylesheet" href="css/style.css?cache=1.1" />
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 		<script type="text/javascript" src="js/output.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
