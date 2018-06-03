@@ -94,12 +94,7 @@
 				<div id="customht"></div>
 				<div style="margin-bottom: 5px; margin-left: auto; margin-right: auto;">
 					<span class="tts"></span>
-					<center>
 				</div>
-				<center>
-					<a class="skinlist" title="Official OgarUnlimited Skins"><i class="fa fa-unlock" aria-hidden="true" ></i> <font color="green">Skins</font></a>
-				</center>
-				</center>
 			</div>
 		</div>
 		<div id="connecting" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; z-index: 100; background-color: rgba(0,0,0,0.5);">
@@ -112,28 +107,9 @@
 		<form>
 			<input id="chat_textbox" maxlength="200" placeholder="Press Enter to chat!" type="text">
 		</form>
-		<div id="skins" style="display: none;" title="Skins List (Click Your Skin)"></div>
 		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
 		<script src="Vector2.js" type="text/javascript"></script>
 		<script src="js/main_out.js" type="text/javascript"></script>
-		<script>
-			$(document).on("contextmenu", function(t) {
-				return t.preventDefault(), t.stopPropagation(), !1
-			}), $(window).load(function() {
-				$(".skinlist").click(function(t) {
-					t.preventDefault(), t.stopPropagation(), 
-					$("#skins").dialog({ show: "blind", hide: "clip" })
-				}), $("#skins").on("click", ".skinclick", function() {
-					$("#nick").val("<" + $(this).attr("title") + ">"), $("#skins").dialog("close")
-				}), $.ajax({
-					url: "skinlist.txt",
-					type: "GET",
-					success: function(t) {
-						var e = t.split("\n");
-						for (var n in e) e[n] && "" != e[n] && "_" != e[n].slice(0, 1) && $("#skins").append("<img draggable='false' oncontextmenu='return false;' class='skinclick' title='" + e[n] + "' style='width: 30px; height: 30px;' src='skinlist/" + e[n] + ".png'>")
-					}
-				})
-			});
-		</script>
+		<script>$(document).on("contextmenu", function(t) { return t.preventDefault(), t.stopPropagation(), !1 });</script>
 	</body>
 </html>

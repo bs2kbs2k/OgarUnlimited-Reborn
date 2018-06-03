@@ -1886,7 +1886,9 @@ Source :: https://github.com/LegitSoulja/ogarul
             }
         };
 		
-		win.con = () => wsConnect.apply(null, arguments);
+		win.con = function(url) { 
+			wsConnect(url, ( (url.indexOf(':') > -1) ? true : false )); 
+		}
         win.onload = function(){
             gameLoop();
             win.getConnection = function getConnection() {
